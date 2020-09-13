@@ -2,6 +2,10 @@ package labs.khobfa.stack;
 
 import java.util.Stack;
 
+/**
+ * Find the maximum possible height of the stacks such that all
+ * of the stacks are exactly the same height.
+ */
 public class EqualStack {
 
     public int equalHeightStack(int[] ha1, int[] ha2, int[] ha3) {
