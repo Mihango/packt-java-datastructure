@@ -44,6 +44,12 @@ public class MaximumElementTest {
         assertEquals("26\n91", outputStream.toString().trim());
     }
 
+    @Test
+    public void testMathMin() {
+        System.out.println(Math.min(45, 45));
+        assertEquals(45, Math.min(45, 45));
+    }
+
     @After
     public void tearDown() {
         System.setOut(standardOut);
