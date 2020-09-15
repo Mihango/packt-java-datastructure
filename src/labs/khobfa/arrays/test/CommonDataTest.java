@@ -3,6 +3,8 @@ package labs.khobfa.arrays.test;
 import labs.khobfa.arrays.CommonData;
 import org.junit.Test;
 
+import java.util.Collections;
+
 import static org.junit.Assert.*;
 
 public class CommonDataTest {
