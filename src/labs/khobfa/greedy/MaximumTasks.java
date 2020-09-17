@@ -13,9 +13,9 @@ public class MaximumTasks {
         int items = 0;
 
         for (int j : arr) {
-            if (currTime + j > max) return items;
-
             currTime += j;
+            if (currTime > max) break;
+
             ++items;
         }
 
